@@ -1,6 +1,3 @@
-# Rui Malheiro    200901566
-# Claudia Pereira 200801943
-
 import sys
 from mylexer import MyLexer
 from myparser import MyParser

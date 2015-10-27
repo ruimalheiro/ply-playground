@@ -1,6 +1,3 @@
-# Rui Malheiro    200901566
-# Claudia Pereira 200801943
-
 import sys
 from myast import *
 from mytact import *
