@@ -6,11 +6,11 @@ This is a simple academic project that explores the basics of PLY. This compiler
 ----
 #### Instructions:
 * In order to run it, Python 2.7 must be installed.
-* Run command: "python compiler.py <input>" , where "input" is the name of the file that contains the source code.
+* Run command: "python compiler.py 'input'" , where "input" is the name of the file that contains the source code.
 * A file named "output.asm" will be generated and it can be used within the MARS MIPS Simulator.
 
 ----
-#### Foo Language Rules:
+#### "Foo" Language Rules:
 * All commands end in ";".
 * The variables are global, and they keep the type that was assigned to them when they were initialized.
 
