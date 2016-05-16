@@ -1,5 +1,5 @@
 import sys
-from myast import *
+from compiler_ast import *
 
 class LabelNode:
 

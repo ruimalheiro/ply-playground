@@ -1,0 +1,12 @@
+x <- 5;
+
+if x > 0 then
+begin
+    z <- 4 + x;
+    print z;
+end;
+
+y <- 3.0;
+p <- 2.3 * y;
+
+print p;

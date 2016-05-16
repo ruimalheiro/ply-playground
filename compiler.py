@@ -1,8 +1,8 @@
 import sys
-from mylexer import MyLexer
-from myparser import MyParser
-from mytact import ThreeAddressCodeTree
-from mymips import MipsGenerator
+from compiler_lexer import CompilerLexer
+from compiler_parser import CompilerParser
+from compiler_tact import ThreeAddressCodeTree
+from compiler_mips import MipsGenerator
 
 # List of tokens.
 tokens = [
@@ -64,13 +64,13 @@ input = open(sys.argv[1], "r").read()
 print "\n"
 
 # Building the lexer.
-lexer = MyLexer(tokens, reserved)
+lexer = CompilerLexer(tokens, reserved)
 lexer.build()
 lexer.tokenize(input)
 lexer.print_tokens(False)
 
 # Building the parser.
-parser = MyParser(tokens)
+parser = CompilerParser(tokens)
 parser.build()
 parser.parse(input, debug=0)
 parser.build_abstract_syntax_tree()

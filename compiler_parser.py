@@ -1,8 +1,8 @@
 import sys
 import ply.yacc as yacc
-from myast import *
+from compiler_ast import *
 
-class MyParser:
+class CompilerParser:
 	"""Parser.
 
     This class represents the parser and builds the abstract syntax tree.

@@ -1,6 +1,6 @@
 import sys
-from myast import *
-from mytact import *
+from compiler_ast import *
+from compiler_tact import *
 
 class MipsGenerator:
 	"""Generates MIPS code.

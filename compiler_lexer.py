@@ -1,7 +1,7 @@
 import sys
 import ply.lex as lex
 
-class MyLexer:
+class CompilerLexer:
 	"""Lexer.
 
     This class represents the lexer used in the compiler and defines the tokens and reserved words.
