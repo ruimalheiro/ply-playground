@@ -7,53 +7,53 @@ from compiler_mips import MipsGenerator
 # List of tokens.
 tokens = [
 
-		# Variables.
-		'ID',
+  # Variables.
+  'ID',
 
-		# Numbers.
-		'INTEGER',
-		'REAL',
-		
-		# Arithmetic operators.
-		'PLUS',
-		'MINUS',
-		'TIMES',
-		'DIVIDE',
+  # Numbers.
+  'INTEGER',
+  'REAL',
+  
+  # Arithmetic operators.
+  'PLUS',
+  'MINUS',
+  'TIMES',
+  'DIVIDE',
 
-		# Relational operators.
-		'EQUAL',
-		'LEQUAL',
-		'GEQUAL',
-		'NEQUAL',
-		'LTHEN',
-		'GTHEN',
+  # Relational operators.
+  'EQUAL',
+  'LEQUAL',
+  'GEQUAL',
+  'NEQUAL',
+  'LTHEN',
+  'GTHEN',
 
-		# Parenthesis.
-		'LPAREN',
-		'RPAREN',
+  # Parenthesis.
+  'LPAREN',
+  'RPAREN',
 
-		# Delimiters.
-		'COLON',
+  # Delimiters.
+  'COLON',
 
-		#Assignment
-		'ASSIGN',
+  #Assignment
+  'ASSIGN',
 
-	]
+]
 
 # List of reserved words.
 reserved = {
 
-		'if'   : 'IF',
-		'then' : 'THEN',
-		'begin': 'BEGIN',
-		'end'  : 'END',
-		'else' : 'ELSE',
-		'while': 'WHILE',
-		'do'   : 'DO',
-		'done' : 'DONE',
-		'print': 'PRINT',
+  'if'   : 'IF',
+  'then' : 'THEN',
+  'begin': 'BEGIN',
+  'end'  : 'END',
+  'else' : 'ELSE',
+  'while': 'WHILE',
+  'do'   : 'DO',
+  'done' : 'DONE',
+  'print': 'PRINT',
 
-	}
+}
 
 # Adding the reserved words to the tokens list.
 tokens += list(reserved.values())
