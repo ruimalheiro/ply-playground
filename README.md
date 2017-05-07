@@ -12,7 +12,9 @@ This is a simple academic project that explores the basics of PLY. This compiler
 ----
 #### "Foo" Language Rules:
 * All commands end in `;`.
-* The variables are global, and they keep the type that was assigned to them when they were initialized.
+* Variables are defined as: `x <- 5;`.
+* Variables are accessible in the current and children's scopes.
+* Variables keep the type that was assigned to them when they were initialized.
 
 ----
 #### Valid program example:
